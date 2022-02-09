@@ -1,12 +1,12 @@
 import Head from 'next/head'
 import NavBar from '../Components/NavBar'
-import HomePage from './PageContainer/Home/HomePage'
-import Banner from './PageContainer/Banner/Banner'
-import Slide from './PageContainer/Slide/Slide'
-import Roadmap from './PageContainer/Roadmap/Roadmap'
-import Team from './PageContainer/Team/Team'
-import Contact from './PageContainer/Contact/Contact'
-import Footer from './PageContainer/Footer/Footer'
+import HomePage from './PageContainer/Home'
+import Banner from './PageContainer/Banner'
+import Slide from './PageContainer/Slide'
+import Roadmap from './PageContainer/Roadmap'
+import Team from './PageContainer/Team'
+import Contact from './PageContainer/Contact'
+import Footer from './PageContainer/Footer'
 
 export default function Home() {
   return (

@@ -13,10 +13,10 @@ const Width = ({children,column}) => {
     flex-direction: ${column ? 'column' : 'row'};
 
   @media only screen and (max-width: 1500px) {
-      width: 95%;
+    width: 95%;
   }
   @media only screen and (max-width: 1400px) {
-      width: 98%;
+    width: 98%;
   }
   @media only screen and (max-width: 768px) {
     flex-direction: column;

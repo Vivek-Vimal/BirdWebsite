@@ -12,23 +12,24 @@ const PageLayout = ({children,Bg2,Bg3,Bg4,contactImg}) => {
     flex-direction: column;
     background-color: rgb(28, 5, 49);
     background-image: url(${Bg2 ? '/background/bg2.png' : Bg3 ? '/background/bg3.png' : Bg4 ? '/background/bg4.png'  : contactImg ? '/contact/IMG.png' : '/background/bg1.png'}); 
-    background-size: 100% 100%;
+    background-size: 100% 70rem;
     background-repeat: no-repeat;
     background-attachment: fixed;
     padding: 7rem 0 2rem 0;
     overflow-x: hidden;
 
-    @media only screen and (max-width: 1350px) {
-      padding: 2rem 0 0 0;
-    }
-    @media only screen and (max-width: 1250px) {
-      padding: 2rem 0 0 0;
-      background-size: auto 100%;
-    }
+  @media only screen and (max-width: 1350px) {
+    padding: 2rem 0 0 0;
+  }
 
-    @media only screen and (max-width: 1050px) {
-      padding: 1rem 0;
-    }
+  @media only screen and (max-width: 1250px) {
+    padding: 2rem 0 0 0;
+    background-size: auto 100%;
+  }
+
+  @media only screen and (max-width: 1050px) {
+    padding: 1rem 0;
+  }
 `;
 
   return (
